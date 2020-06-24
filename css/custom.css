@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+img{
+    width:100%;
+    display:block;
+}
+
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+/*header section start*/
+header{
+    background: url(../images/header.jpg);
+    background-color: #00000080;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.header_sticky{
+    width: 100%;
+    padding: 20px 0;
+    top: 0;
+    display: block;
+    box-shadow: -2px 6px 6px #ffffff6b;
+    }
+.wrapper {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo h2{
+    color: white;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.1;
+}
+.logo span{
+    font-size: 20px;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul li{list-style: none;}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.nav ul li a:hover{
+    color:#20AAFB;
+}
+
+.nav ul li:last-child a{
+    border:2px solid white;
+    border-radius:30px;
+    padding: 10px 20px;
+}
+
+.banner_section {
+
+}
+
+.banner_content{
+    flex-basis: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+}
+.banner_content h2{color: white;font-size: 30px;font-weight: 400;}
+.banner_content span{
+    display: block;
+    background: #20aafb;
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.banner_content h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 25px 0;
+}
+.banner_content a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #20aafb;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    display: inline-block;
+    transition: .2s all ease-in-out;
+}
+
+.banner_content a:hover{
+    box-shadow:0px 6px 16px white;
+}
+/*banner section end*/
+
+
+
+/*upcoming events start*/
+.upcoming{
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.upcoming h3{
+    font-size: 40px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.upcoming span{
+    display: block;
+    background: #20aafb;
+    margin: auto;
+    margin-top: 5px;
+    width: 80px;
+    height: 3px;
+}
+/*upcoming events end*/
+
+
+
+/*event section start*/
+.event_section{}
+.event_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.same{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 60px;
+    text-align: center;
+}
+
+
+.same h3{
+    color: #222222;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 25px;
+}
+.same p{
+    color: #222222;
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 1.2;
+}
+.same a{
+    color: #20aafb;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.same img{
+    border-radius:5px;
+    object-fit: cover;
+    height: 280px;
+}
+/*event section end*/
+
+
+
+/*explore section start*/
+.explore_section{
+    background: url(../images/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #00000091;
+    padding: 130px 0;
+}
+.explore_content{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.explore_content h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.explore_content span{
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: #20aafb;
+}
+.explore_content p{
+    color: white;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.explore_content a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/*explore section end*/
+
+
+
+/*tours and destination section start*/
+.tours_section{padding-top: 100px;padding-bottom: 40px;}
+.tours_content{}
+.tour{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+}
+.tour h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #222;
+    line-height: 1.1;
+}
+.tour p{
+    color: gray;
+    padding: 30px 0;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+    color: #222222;
+}
+.tour span{
+    display: block;
+    height: 3px;
+    width: 80px;
+    background: #20aafb;
+    margin-top: 20px;
+}
+.tour a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #20aafb;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    display: inline-block;
+    transition: .2s all ease-in-out;
+}
+
+.tour a:hover{
+    box-shadow:0px 8px 16px rgba(0,0,0,0.4);
+}
+.tour img{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.small{
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+.large{
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+}
+/*tours and destination section end*/
+
+
+
+/*copyright section start*/
+.copyright{background: #101010;padding: 40px;}
+
+.copyright p{   
+    font-size: 20px;    
+    color: #f5f5f5;   
+    font-weight: 600;  
+    text-align: center;   
+    line-height: 1.8;
+}
+
+.last{}
+/*copyright section end*/
